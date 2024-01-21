@@ -14,11 +14,11 @@ const Card = () => {
             </Heading>
 
             <LinksContainer>
-                <Link name="Github" />
-                <Link name="Frontend Mentor" />
-                <Link name="LinkedIn" />
-                <Link name="Twitter" />
-                <Link name="Instagram" />
+                <Link name="Github" link="https://github.com/" />
+                <Link name="Frontend Mentor" link="https://www.frontendmentor.io" />
+                <Link name="LinkedIn" link="https://www.linkedin.com/" />
+                <Link name="Twitter" link="https://twitter.com/" />
+                <Link name="Instagram" link="https://www.instagram.com/" />
             </LinksContainer>
         </Container>
     );

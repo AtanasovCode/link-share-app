@@ -1,8 +1,17 @@
-# React + Vite
+# Link Sharing Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Design
 
-Currently, two official plugins are available:
+![](/src/assets/preview.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Overview
+
+A simple but beautiful web tool for sharing all of your social media links in one convenient place.
+The design is by [Frontend Mentor](https://www.frontendmentor.io) built by [me](https://github.com/atanasovCode/)
+
+### Built using:
+
+- Reactjs
+- styled-components
+
+

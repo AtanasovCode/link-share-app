@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 const Link = ({
     name,
+    link,
 }) => {
     return (
-        <Container>
+        <Container href={link} target="_blank">
             {name}
         </Container>
     );
@@ -12,7 +13,8 @@ const Link = ({
 
 export default Link;
 
-const Container = styled.div`
+const Container = styled.a`
+    text-decoration: none;
     padding: 0.75rem;
     text-align: center;
     display: flex;
