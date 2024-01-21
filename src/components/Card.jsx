@@ -9,6 +9,7 @@ const Card = () => {
         <Container>
             <Heading>
                 <ProfilePicture src={pfp} alt="profile picture" />
+                <Name>Jessica Randall</Name>
                 <Location>London, United Kingdom</Location>
                 <Title>"Front-end developer and avid reader."</Title>
             </Heading>
@@ -55,6 +56,14 @@ const ProfilePicture = styled.img`
     width: 5.5rem;
     height: 5.5rem;
     margin-bottom: 1.5rem;
+`;
+
+const Name = styled.div`
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    margin-bottom: .25rem;
 `;
 
 const Location = styled.div`

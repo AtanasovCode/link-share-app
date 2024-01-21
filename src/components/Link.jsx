@@ -23,6 +23,7 @@ const Container = styled.a`
     background-color: ${props => props.theme.secondary};
     font-family: ${props => props.theme.font};
     font-size: 0.875rem;
+    font-weight: 700;
     color: ${props => props.theme.text};
     cursor: pointer;
     transition: all .4s ease;
